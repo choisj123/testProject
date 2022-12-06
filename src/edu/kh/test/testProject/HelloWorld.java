@@ -20,7 +20,9 @@ public class HelloWorld {
 		//숫자와 숫자끼리의 덧셈은 실제 덧셈 연산결과
 		//문자열과 숫자 or 문자열과 문자열의 덧셈은 이어쓰기
 		System.out.println("20*19=" + 20*19);
-	
+		
+		//notice! 자바는 사칙연산의 우선순위를 그대로 따른다 ex) 우선 계산을 원하면 ()괄호 사용
+		System.out.println("성공?");
 	}
 
 }
